@@ -1,0 +1,333 @@
+#body{
+    margin: 0;
+    padding: 0;
+}
+main {
+  padding: 5px;
+}
+
+.header {
+  position: sticky;  top: 0;
+  z-index: 2;
+}
+
+.logo-img {
+  background-color: aquamarine;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+.shopname {
+  color: rgba(58, 90, 28, 0.73);
+  font-size: 50px;
+}
+#nav-home {
+  background-color: rgb(1, 5, 4);
+  padding-left: 50px;
+}
+#nav-text a {
+  color: #ffff;
+}
+
+/*San pham*/
+.title-pro {
+  font-size: 35px;
+  text-align: center;
+}
+.sp-img {
+  width: 100%;
+}
+#product {
+  padding: 3px;
+}
+.sp-border{
+  border: 1px solid #DCDCDC;
+  border-radius: 5px;
+  text-align: start;
+  padding: 2px;
+}
+.sp-name {
+  line-height: 12px;
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  font-weight: 250;
+}
+.sp-name:hover {
+  text-decoration: underline;
+}
+.sp-gia{
+  font-weight: 1000;
+}
+.sp-sl {
+  width: 50px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.sp-mua {
+  background-color: #F0F0F0;
+  border-radius: 5px;
+  height: 30px;
+}
+.sp-mua:hover{
+  background-color: #0066FF;
+}
+.sp-them{
+  font-size: 20px;
+  color: black;
+}
+.sp-them:hover{
+  font-size: 21px;
+  color: #0066FF;
+}
+/*San pham end*/
+
+.banner-home img {
+  height: 420px;
+}
+
+
+/*Sidebar decord*/
+.sidebar-title1{
+  color: black;
+  background-color: aquamarine;
+  font-size: 25px;
+  font-weight: 700;
+  text-align: center;
+  font-family: 'Saira', sans-serif;
+  margin-bottom: 0px;
+}
+.sidebar-title{
+  color: black;
+  background-color: aquamarine;
+  margin-bottom: 0px;
+  font-size: 25px;
+  text-align: center;
+  font-family: 'Saira', sans-serif;
+}
+.dmsp-div {
+  border: 1px solid aquamarine;
+  display: block;
+  background-color: #F5F5F5;
+  list-style: none;
+}
+.dmsp {
+  color: black;
+  font-family: Courier New;
+  font-size: 20px;
+  margin-left: 60px;
+  text-decoration: none;
+  font-weight: 700;
+  width: 100%;
+}
+.dmsp:active{
+  color: aquamarine;
+}
+.dmsp:hover{
+  font-size: 21px;
+}
+
+/*San pham dac biet*/
+.spdb-img {
+  width:100%;
+}
+.spdb-text h5{
+  text-transform: capitalize;
+  font-size: 15px;
+}
+.spdb-gia{
+  font-weight: 1000;
+}
+.spdb-div{
+  margin-bottom: 5px;
+}
+.spdb-xemct{
+  color: black;
+}
+.spdb-xemct i:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+.tintuc a{
+  text-decoration: none;
+  color: black;
+}
+.tintuc a:hover{
+  text-decoration: underline;
+}
+/*End sidebar decord*/
+
+.phone-contact {
+  background-color: aquamarine;
+  height: 65px;
+  border-radius: 15px;
+  padding: 5px;
+  text-align: center;
+}
+.phone-contact-main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#footer {
+  background-color: aquamarine;
+}
+.social-icon {
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 7px;
+  border-radius: 5px;
+}
+.social-icon:hover {
+  background-color: aqua;
+}
+
+
+/*Login page decord*/
+.login-title {
+  background-color: aquamarine;
+  margin-bottom: 0px;
+}
+.login-form {
+  width: 90%;
+  margin: 20px auto;
+  background-color: #E0FFFF;
+  text-align: center;
+  display: block;
+}
+.input-form {
+    margin: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 60%;
+  }
+.label-form {
+  font-size: 18px;
+  border: 1px solid black;
+  width: 33px;
+  height: 33px;
+  border-radius: 20px;
+  background-color: aquamarine;
+}
+
+@media screen and (min-width: 800px) {
+  .login-form {
+    background-color: #E0FFFF;
+    width: 55%;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+  }
+  .input-form {
+    margin: 10px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 40%;
+  }
+  .label-form {
+    font-size: 18px;
+    border: 1px solid black;
+    width: 33px;
+    height: 33px;
+    border-radius: 20px;
+    background-color: aquamarine;
+  }
+  .text-form {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+  }
+}
+
+/*end login page decord*/
+/*Register page decord*/
+.is-valid{
+  border: 2px solid green;
+}
+.is-invalid{
+  border: 2px solid red;
+}
+
+
+
+/*Userinfo page*/
+.userinfo {
+  display: block;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  background-color: aquamarine;
+}
+
+.userinfo p {
+  font-size: 25px;
+}
+.userinfo img {
+  width: 200px;
+}
+
+
+
+/*Phân trang*/
+.pagi-btn {
+  font-size: 20px;
+  border: 1px solid #A9A9A9;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 2px;
+  text-decoration: none;
+  color: #A9A9A9;
+}
+.pagi-btn:hover{
+  background-color: green;
+  color: black;
+}
+.pagi-btn-span {
+  font-size: 22px;
+  border: 1px solid green;
+  background-color: green;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 2px;
+  color: black;
+}
+/*End phân trang*/
+
+/*Contact page*/
+.contact-left{
+  background-color: aquamarine;
+  border-radius: 5px;
+}
+.form-contact input, textarea{
+  width: 100%;
+}
+.form-contact input{
+  height: 35px;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+.form-contact label{
+  margin-bottom: 8px;
+  margin-top: 8px;
+  font-size: 17px;
+  font-weight: 500;
+}
+/*End contact page*/
+
+/*Chi tiet san pham*/
+.more-infor p{
+  font-size: 15px;
+}
+.ctsp-gia {
+  font-size: 20px;
+  font-weight: 700;
+  color: Green;
+}
+ 
+.size-box {
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+}

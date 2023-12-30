@@ -1,0 +1,169 @@
+/*Menu decord*/
+.admin-title-div {
+  height: 100px;
+  background-color: #40E0D0;
+  padding-top: 10px;
+}
+.admin-title{
+	text-align: center;
+	font-family: 'Patrick Hand', cursive;
+}
+.admin-title a {
+  text-decoration: none;
+}
+.admin_menu {
+	list-style: none;
+  padding-left: 14px;
+}
+.admin_menu a {
+	color: black;
+	text-decoration: none;
+
+}
+.menu-title {
+  margin-left: 12px;
+}
+.admin_menu li {
+	margin-bottom: 10px;
+}
+/*background menu*/
+.main-left {
+  padding: 0px 0px 0px 0px !important;
+  background-color: aquamarine;
+}
+/*end background menu*/
+/*end Menu decord*/
+
+.input-dm {
+	border-radius: 3px;
+	border: 1px solid black;
+	width: 70%;
+}
+.input-sp {
+	border-radius: 3px;
+	border: 1px solid black;
+	width: 100%;
+}
+
+/* .main-right{
+	padding-left: 0px;
+} */
+
+/*header decord*/
+.admin-header {
+	background-color: black;
+  height: 70px;
+  padding: 15px 10px;
+
+}
+
+.admin-user {
+	margin-top: 5px;
+  color: black;
+}
+.admin-user-icon  {
+	background-color: aquamarine;
+	color: rgb(52, 116, 218);
+	border-radius: 3px;
+	border: 1px solid black;
+  height: 35px;
+  width: 35px;
+}
+
+/*end header decord*/
+
+/*footer decord*/
+.admin-footer {
+	background-color: black;
+	color: #ffff;
+}
+
+
+
+/*login */
+/*Login page decord*/
+.login-title {
+  background-color: aquamarine;
+  margin-bottom: 0px;
+}
+.login-form {
+  width: 100%;
+  margin: 20px auto;
+  background-color: #E0FFFF;
+}
+.input-form {
+    margin: 10px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .label-form {
+    font-size: 18px;
+    border: 1px solid black;
+    width: 33px;
+    height: 33px;
+    border-radius: 20px;
+    background-color: aquamarine;
+  }
+
+@media screen and (min-width: 800px) {
+  .login-form {
+    background-color: #E0FFFF;
+    width: 55%;
+    margin: 20px auto;
+  }
+  .input-form {
+    margin: 10px;
+    height: 35px;
+    border-radius: 10px;
+    border: 1px solid black;
+  }
+  .label-form {
+    font-size: 18px;
+    border: 1px solid black;
+    width: 33px;
+    height: 33px;
+    border-radius: 20px;
+    background-color: aquamarine;
+  }
+  .login-form {
+    text-align: center;
+  }
+
+  .text-form {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0px;
+  }
+}
+/*end login page decord*/
+
+/*Button*/
+.btn-del, .btn-edit{
+  text-decoration: none;
+  border: 1px solid black;
+  margin: 3px;
+  padding: 3px;
+  border-radius: 5px;
+  color: black;
+}
+.btn-del {
+  background-color: #FFD700;
+}
+.btn-del:hover{
+  background-color: #FFA500;
+}
+.btn-edit:hover{
+  background-color: #0000FF;
+}
+.btn-edit {
+  background-color: #00BFFF;
+}
+
+/*San pham*/
+#table-prduct-list th {
+  padding: 6px;
+}
+.td-mota {
+  width: 18%;
+}
