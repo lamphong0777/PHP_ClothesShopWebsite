@@ -1,2 +1,2 @@
 # Nienluancs
-Code web ban quan ao
+Build a clothes website using HTML, CSS, Bootstrap 5, PHP, MVC, MySql.
